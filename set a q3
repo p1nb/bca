@@ -1,0 +1,15 @@
+Set A q3
+
+Declare array. Reverse the order of elements, making the first element last and
+last element first and similarly rearranging other array elements.[Hint :
+array_reverse()]
+
+Ans-
+
+<?php
+
+$numbers = [10, 20, 30];
+$reversed = array_reverse($numbers);
+
+print_r($reversed);
+print_r($numbers);
